@@ -1,7 +1,7 @@
 # Site settings
 title: OSPO
 description: "The LERO Open Source Programme Office"
-url: "https://SFI-Lero.github.io"
+url: "https://sfi-lero.github.io"
 
 # Secondary Parameters
 baseurl: "/OSPO"
