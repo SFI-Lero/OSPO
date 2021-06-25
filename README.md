@@ -4,6 +4,8 @@ Repository for the Lero OSPO website: [https://sfi-lero.github.io/OSPO/](https:/
 
 ![](/img/logos/logo_banner.png)
 
+## Website core configuration
+The website can be configured from the [`_config.yml` file](https://github.com/SFI-Lero/OSPO/blob/main/_config.yml). This is where the website contact email, twitter handle, description, title, etc. can be edited, as well as the default ruby gems etc. .
 
 ## Adding people
 People are rendered here: https://sfi-lero.github.io/OSPO/People/. You can add yourself by adding YML content in this file (spaces and indenting matters!), you can leave out/delete what doesn't apply:
