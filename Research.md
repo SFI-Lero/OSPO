@@ -1,7 +1,7 @@
 ---
 layout: pagefullwidth
 title: "Research"
-description: "BioMEC research"
+description: "Lero OSPO research"
 logo:
 header-img: "img/home-bg.jpg"
 ordernumber: 5
