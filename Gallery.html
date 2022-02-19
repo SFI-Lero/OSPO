@@ -1,0 +1,76 @@
+---
+layout: pagefullwidth
+title: "Gallery"
+description: "A gallery of computation"
+header-img: "img/home-bg.jpg"
+ordernumber: 7
+---
+
+<link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/css/lightslider.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/js/lightslider.js"></script>
+ <!-- Do not include both lightslider.js and lightslider.min.js -->
+
+ <script>
+    $(document).ready(function() {
+         $('#image-gallery').lightSlider({
+             gallery:true,
+             item:1,
+             thumbItem:10,
+             slideMargin: 0,
+             adaptiveHeight:true,
+             vThumbWidth:200,
+             keyPress: true,
+             speed:1000,
+             pause:5000,
+             auto:true,
+             loop:true,
+             pauseOnHover: true,
+             onSliderLoad: function() {
+                 $('#image-gallery').removeClass('cS-hidden');
+             }
+         });
+    });
+ </script>
+
+ <div class="row">
+  <div class="col-sm-6">
+  <h1>A gallery of computation</h1>
+  In computational mechanics and geometry analysis visualization is key. It is key to develop and test algorithms and iron out any bugs that may be present.
+  However, for me, visualization is more than that, it is also a way to feel a sense of <b> creativity and play </b> while doing serious coding.
+  Staying in a creative and playful mood I find is the best way to come up with novel and creative solutions to complex problems.
+  Therefore, irrespective of the actual application I often still end up testing codes (for meshing for instance) on a sphere, torus, dinosaur, rabbit, and an elephant.
+</br> Below is an animated gallery of visualizations and images I developed as part of my research.
+Some are of the actual research at hand, some are test graphics used to debug the algorithms,
+some show spectacular bugs and errors which may also make for accidental but entertaining/beautiful computational "art".
+</div>
+
+<div class="col-sm-6">
+   <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+  {% for image in site.static_files %}
+     {% if image.path contains 'img/gallery' %}
+
+       <li data-thumb={{ site.baseurl }}{{ image.path }} style="text-align:center">
+           <img src="{{ site.baseurl }}{{ image.path }}" alt="image" width="60%" align="middle" >
+           </br>
+           <b> <a alt="{{ image.name }}" href="{{ site.baseurl }}{{ image.path }}">{{ image.name }}</a> </b>
+           <a rel="Content license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Website content license" style="border-width:0" src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" /></a>
+           <!-- <p>{{ image.path }}</p> -->
+       </li>
+
+         <!-- <div  class=" col-md-4 col-xs-12 full" style=" border-width: 0px; margin-top:35px;">
+           <div class="well" style="height:300px; height:relative; background: url({{ site.baseurl }}{{ image.path }}); background-size: 100%; background-position:center; background-repeat: no-repeat; margin: 0px;">
+             <div style="height:50px; position:relative; top:250px; background:rgba(0,0,0,0.9); color: white; font-size: 16px; text-align: left; margin: -20px -20px -20px -20px">
+                <a href="{{ site.baseurl }}{{ image.path }}" target="_blank" style="color: white !important"><p style="font-size:1em; position:relative; top:0px; width: 75%; white-space: nowrap; overflow: hidden !important; text-overflow: ellipsis; margin-left:5px">{{ image.name }}</p>
+               <i class="fa fa-chevron-right ico" style="font-size: 30px; color: white; position:relative; margin: -44px 5px 0px 0px; float:right"></i></a>
+             </div>
+           </div>
+         </div> -->
+
+     {% endif %}
+ {% endfor %}
+
+</ul>
+
+</div>
+</div>
