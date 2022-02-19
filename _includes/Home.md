@@ -1,12 +1,8 @@
-# Welcome to the Lero Open Source Programme Office
+# Welcome to the Lero Open Source Programme Office (Lero-OSPO)
 
-***Lorem ipsum dolor sit amet***
+The Lero Open Source Program Office (Lero-OSPO) is a dedicated platform tasked with overseeing the development and management of open source software at Lero, with responsibilities including open source library selection, license compliance workflows, managing Lero members'relationship with the broader open source software (OSS) community, and more.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean molestie accumsan tempus. Donec blandit venenatis imperdiet. Curabitur congue, tortor sit amet malesuada egestas, eros tortor euismod odio, sit amet dictum nibh ipsum id ex. Sed sollicitudin faucibus sapien, quis rhoncus metus cursus vel. Integer eget magna libero. Aliquam at lectus sed ex tincidunt feugiat. Vestibulum ultrices leo sit amet quam suscipit, a commodo erat sollicitudin. Curabitur a nibh at arcu suscipit laoreet. Ut efficitur magna odio, nec mattis ligula interdum tempus. Quisque in massa bibendum turpis convallis gravida et id metus. Proin pharetra lacus eget libero convallis lacinia.
+The two core values managed and advocated by Lero-OSPO are:
 
-<html>
-<body>
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/OhN1d0xxUjE?&autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-</body>
-</html>
+1. **Comply:** Open source software is free to use, but comes with an important responsibility: to comply with licensing requirements. Given the number and variety of licenses — not to mention the difficulty of unearthing deep dependencies — this can sometimes be easier said than done. Lero members must comply with licensing requirements in order to avoid potential litigation or reputational damage to Lero and its partners. One of the main functions of Lero-OSPO is governing license compliance, including determining which licenses can be used with which projects and overseeing how teams track their open source components and dependencies.
+2. **Contribute:** The OSS community is a diverse group that includes everyone from individual developers to large enterprises that sponsor various projects.  Contribution is a core pillar of the open source community mindset and it is also one of the main reasons why open source has thrived in recent years. Lero encourages its members to contribute back to the OSS community (see Lero Open Source Charter - link to be added), which not only builds goodwill with the Open Source community whose code might be the building block for one or more Lero projects, but also can be beneficial in creating potential funding opportunities by showcasing Lero's contributions (because Open Source contributions are much more visible) to interested parties.
