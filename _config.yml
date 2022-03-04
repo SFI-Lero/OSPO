@@ -32,7 +32,7 @@ defaults:
       type: modules
     values:
       layout: page
-      logo: img/logos/biomec_logo_sticker.png
+      logo: img/logos/logo_banner.png
   - scope:
       path: "projects"
       type: "pages"
