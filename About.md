@@ -12,10 +12,17 @@ dsfasfsdfsafsa
 
 ## Second heading
 fdsfasfas
-  
+
 fdsdfsa
 
 fdsfasfas
+
+<html>
+<div>
+  {% capture my_include %}{% include quote_01.md %}{% endcapture %}
+  {{ my_include | markdownify }}
+</div>
+</html>
 
 fdsdfsa
 fdsfasfas
