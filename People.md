@@ -16,14 +16,14 @@ ordernumber: 2
 
 
 
-{% assign sorted_people = site.data.people | sort:"name" %}
+{% assign sorted_people = site.data.people | sort:"order" %}
 
 # Mentors
 <html>
 <div class="row">
 
 {% for people in sorted_people %} {% if people.type == "mentor" %}
-	<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+	<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3" onclick="window.open('{{ people.url }}','mywindow');" style="cursor: pointer;">
 		{% include addPerson.html people=site.data.people %}
 	</div>
 {% endif %}{% endfor %}
