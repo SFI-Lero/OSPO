@@ -39,6 +39,7 @@ ordernumber: 1
     margin-bottom: 24px;
     text-align: center;
     font-weight: 300;
+    width: 50%;
 }
 .pquote img.pquote-avatar {
     border-radius: 50px;
@@ -81,29 +82,26 @@ ordernumber: 1
 
 # About <a name="Top"></a>
 
-OSPO
+## What is OSPO?
+
+An Open Source Program Office (OSPO) helps an organization create and manage an open source strategy in terms of the adoption, use, support, participation, and development of open source software.
 
 <html>
-<div class="px-3 pt-4 pt-lg-6 pb-6 col-md-10">
-  <!-- {% capture my_include %}{% include quote_01.md %}{% endcapture %} -->
-  <!-- {{ my_include | markdownify }} -->
-  <aside class="pquote">
+<div>
+  <div class="pquote">
   <p><img src="../img/people/brian.png" class="pquote-avatar">
   I love Lero OSPO.
   </p>
   <p class="pquote-credit">
 — <a href="https://lero.ie/people/brian-fitzgerald">Brian Fitzgerald</a>
   </p>
-</aside>
+</div>
 </div>
 <br>
 </html>
-\
-\
-asasacsaascascascascascasc
 
-ascascZXczcasca
+## Why is OSPO important for Lero?
 
-xcvcxvaad
+The goal of Lero OSPO is to build an Open Source roadmap for Lero and help its members and partners understand how Lero deals with Open Source in its day-to-day activities. It is also an important step in executing Lero's Open Science policy.
 
 [Back to top](#Top)
