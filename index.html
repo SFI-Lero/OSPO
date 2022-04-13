@@ -4,18 +4,18 @@ layout: pagefullwidth
 
 <div class="row">
 
- <div class="col-sm-8">
+ <div class="col-sm-12">
    {% capture my_include %}{% include Home.md %}{% endcapture %}
    {{ my_include | markdownify }}
  </div>
 
- <div class="col-sm-4">
+ <!-- <div class="col-sm-4">
    <h1>Twitter</h1>
-     <a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @{{ site.twitter_username }}</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+     <a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @{{site.twitter_username }}</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
      <br>    
     <a class="twitter-timeline" href="https://twitter.com/{{ site.twitter_username }}">Tweets by {{ site.twitter_username }}</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
   <h1>GitHub</h1>
     <a href="https://github.com/{{ site.github_username }}">Check Lero Github: {{ site.github_username }}</a>
- </div>
+ </div> -->
 
 </div>
