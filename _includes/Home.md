@@ -1,6 +1,6 @@
 # Welcome to the Lero Open Source Programme Office (Lero-OSPO)
 
-The Lero Open Source Program Office (Lero-OSPO) is a dedicated platform tasked with overseeing the development and management of open source software at Lero, with responsibilities including open source library selection, license compliance workflows, managing Lero members'relationship with the broader open source software (OSS) community, and more.
+The [Lero Open Source Program Office (Lero-OSPO)](https://sfi-lero.github.io/OSPO/) is a dedicated platform tasked with overseeing the development and management of open source software at [Lero, the Science Foundation Ireland Research Centre for Software](https://lero.ie/), with responsibilities including open source library selection, license compliance workflows, managing Lero members'relationship with the broader open source software (OSS) community, and more.
 
 The two core values managed and advocated by Lero-OSPO are:
 

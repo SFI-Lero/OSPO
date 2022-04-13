@@ -45,6 +45,21 @@
   type: mentor
   order: 3
 
+- name: Dr Martina Prendergast
+  role: International Funding Manager
+  affiliation: University of Limerick
+  img: martina.jpeg
+  url: https://lero.ie/people/martina-prendergast
+  github_username: MartinaPrendergast
+  # twitter_username: KMMoerman
+  # orcid_id: 0000-0003-3768-4269
+  # impactstory_id: u/0000-0003-3768-4269
+  # linkedin_username: kevin-moerman-98923831
+  email_address: Martina.Prendergast@lero.ie
+  # interests: Open Source Software, Open Hardware, Open Data, Biomechanics, Bioengineering
+  type: mentor
+  order: 4
+
 - name: Dr Tapajit Dey
   role: Postdoctoral Fellow
   affiliation: University of Limerick
@@ -58,19 +73,34 @@
   email_address: tapajit.dey@lero.ie
   # interests: Open Source Software, Open Hardware, Open Data, Biomechanics, Bioengineering
   type: mentor
-  order: 4
-    
-- name: Dr Firstname Lastname
-  role: Role
-  # affiliation: National University Ireland Galway
+  order: 5
+
+- name: Mariana Clohessy
+  role: ADMINISTRATOR
+  affiliation: University of Limerick
   img: default.png
-  url: https://lero.ie/people/404
+  url: https://lero.ie/people/mariana-clohessy
   # github_username: Kevin-Mattheus-Moerman
   # twitter_username: KMMoerman
   # orcid_id: 0000-0003-3768-4269
   # impactstory_id: u/0000-0003-3768-4269
   # linkedin_username: kevin-moerman-98923831
-  # email_address: kevin.moerman@nuigalway.ie
+  email_address: Mariana.Clohessy@lero.ie
   # interests: Open Source Software, Open Hardware, Open Data, Biomechanics, Bioengineering
   type: member
-  order: 5
+  order: 6
+    
+# - name: Dr Firstname Lastname
+#   role: Role
+#   # affiliation: National University Ireland Galway
+#   img: default.png
+#   url: https://lero.ie/people/404
+#   # github_username: Kevin-Mattheus-Moerman
+#   # twitter_username: KMMoerman
+#   # orcid_id: 0000-0003-3768-4269
+#   # impactstory_id: u/0000-0003-3768-4269
+#   # linkedin_username: kevin-moerman-98923831
+#   # email_address: kevin.moerman@nuigalway.ie
+#   # interests: Open Source Software, Open Hardware, Open Data, Biomechanics, Bioengineering
+#   type: member
+#   order: 99
