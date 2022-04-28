@@ -84,13 +84,13 @@ ordernumber: 1
 
 ## What is OSPO?
 
-An Open Source Program Office (OSPO) helps an organization create and manage an open source strategy in terms of the adoption, use, support, participation, and development of open source software.
+An Open Source Program Office (OSPO) helps an organization create and manage an open source strategy in terms of the adoption, use, support, participation, and development of open source software and is designed to be the center of competency for an organization's open source operations and structure. This can include setting code use, distribution, selection, auditing and other policies, as well as training developers, ensuring legal compliance and promoting and building community engagement that benefits the organization strategically.
 
 <html>
 <div>
   <div class="pquote">
   <p><img src="../img/people/brian.png" class="pquote-avatar">
-  I love Lero OSPO.
+  The Lero OSPO is an important strategic division of Lero and it is a testament to our solidarity with the EU Open Science policy.
   </p>
   <p class="pquote-credit">
 — <a href="https://lero.ie/people/brian-fitzgerald">Brian Fitzgerald</a>
@@ -103,5 +103,13 @@ An Open Source Program Office (OSPO) helps an organization create and manage an 
 ## Why is OSPO important for Lero?
 
 The goal of Lero OSPO is to build an Open Source roadmap for Lero and help its members and partners understand how Lero deals with Open Source in its day-to-day activities. It is also an important step in executing Lero's Open Science policy.
+
+## Where can I learn more about OSPO?
+
+There is an excellent module discussing various aspects of Open Source and OSPO available at <https://ospo101.org/>.
+
+## Are there any other OSPOs in Ireland?
+
+The Trinity College Dublin hosts their own OSPO: <https://www.tcd.ie/innovation/OSPO/>.
 
 [Back to top](#Top)

@@ -7,13 +7,15 @@ header-img: "img/home-bg.jpg"
 ordernumber: 5
 ---
 
-## Open Source Research at Lero
+## Open Source/InnerSource Research at Lero
 
 Lero researchers have a long history of contributing to Open Source research. One of the main goals of Lero OSPO is further promoting such research. A non-exhaustive list of research papers by Lero Researchers on different aspects of Open Source Software development and usage can be found below.
 
 ## Publications (Sorted by date - Most Recent First)
 
 1. Dey, T., Karnauch, A., & Mockus, A. (2021, May). Representation of developer expertise in open source software. In 2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE) (pp. 995-1007). IEEE.
+
+1. Morgan L., Gleasure R., Baiyere A.B., , Dang H.P. (2021) Share and Share Alike: How Inner Source Can Help Create New Digital Platforms. California Management Review, 64(1):90-112. doi:10.1177/00081256211044830.
 
 1. Tan, X., Zhou, M., & Fitzgerald, B. (2020, October). Scaling open source communities: An empirical study of the Linux kernel. In 2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE) (pp. 1222-1234). IEEE.
 
@@ -23,9 +25,11 @@ Lero researchers have a long history of contributing to Open Source research. On
 
 1. Rashid, M., Clarke, P. M., & O'Connor, R. V. (2020). A mechanism to explore proactive knowledge retention in open source software communities. Journal of Software: Evolution and Process, 32(3), e2198.
 
-1. Rashid, M., Clarke, P. M., & O’Connor, R. V. (2019). A systematic examination of knowledge loss in open source software projects. International Journal of Information Management, 46, 104-123.
+1. Edison, H., Carroll, N., Morgan, L, Conboy, K. (2020) 'Inner source software development: Current thinking and an agenda for future research'. Journal Of Systems And Software (JSS), 163.
 
 1. Barcomb, A., Stol, K. J., Fitzgerald, B., & Riehle, D. (2020). Managing episodic volunteers in free/libre/open source software communities. IEEE Transactions on Software Engineering.
+
+1. Rashid, M., Clarke, P. M., & O’Connor, R. V. (2019). A systematic examination of knowledge loss in open source software projects. International Journal of Information Management, 46, 104-123.
 
 1. Jullien, N., Stol, K. J., & Herbsleb, J. D. (2019). A preliminary theory for open-source ecosystem microeconomics. In Towards Engineering Free/Libre Open Source Software (FLOSS) Ecosystems for Impact and Sustainability (pp. 49-68). Springer, Singapore.
 
@@ -38,6 +42,10 @@ Lero researchers have a long history of contributing to Open Source research. On
 1. Fitzgerald, B., Mockus, A., & Zhou, M. (Eds.). (2019). Towards Engineering Free/Libre Open Source Software (FLOSS) Ecosystems for Impact and Sustainability: Communications of NII Shonan Meetings. Springer.
 
 1. Barcomb, A., Kaufmann, A., Riehle, D., Stol, K. J., & Fitzgerald, B. (2018). Uncovering the periphery: A qualitative survey of episodic volunteering in free/libre and open source software communities. IEEE Transactions on Software Engineering, 46(9), 962-980.
+
+1. Carroll, N. Morgan, L. and Conboy, K. (2018) Examining the Impact of Adopting Inner Source Software Practices, in Proceedings of 14th International Conference on Open Collaboration (OpenSym), Paris.
+
+1. Edison, H., Carroll, N., Conboy, K. and Morgan, L. (2018) An Investigation into Inner Source Software Development: Preliminary Findings from a Systematic Literature Review, in Proceedings of 14th International Conference on Open Collaboration (OpenSym), Paris.
 
 1. Steinmacher, I., Robles, G., Fitzgerald, B., & Wasserman, A. (2017). Free and open source software development: the end of the teenage years. Journal of Internet Services and Applications, 8(1), 1-4.
 
@@ -91,4 +99,22 @@ Lero researchers have a long history of contributing to Open Source research. On
 
 1. Noll, J., Beecham, S., & Seichter, D. (2011, September). A qualitative study of open source software development: The open EMR project. In 2011 International Symposium on Empirical Software Engineering and Measurement (pp. 30-39). IEEE.
 
+1. Morgan, L., Feller, J. and Finnegan, P. (2011) Exploring Inner Source as a Form of Intra-Organisational Open Innovation, Proceedings of the 19th European Conference on Information Systems (ECIS), Helsinki, Finland, June 6th-9th.
+
 1. Fitzgerald, B., Kesan, J. P., Russo, B., Shaikh, M., & Succi, G. (2011). Adopting open source software: A practical guide. MIT Press.
+
+1. Morgan, L., Feller, J. and Finnegan, P. (2010) Value Creation and Capture with Open Source Software: A Theoretical Model for Understanding the Role of Value Networks, Proceedings of JAIS Theory Development Workshop, International Conference of Information Systems (ICIS), St. Louis, Missouri.
+
+1. Morgan, L. and Finnegan, P. (2010) Open Innovation in Secondary Software Firms: An Exploration of Managers' Perceptions of Open Source Software, ACM SIGMIS Database, Vol. 41:1.
+
+1. Morgan, L., Feller, J. and Finnegan, P. (2010) Value Creation and Capture with Open Source Software: A Theoretical Model for Understanding the Role of Value Networks, Proceedings of the 18th European Conference on Information Systems (ECIS), University of Pretoria, June.
+
+1. Morgan, L. and Finnegan, P. (2008) Deciding on Open Innovation: An Exploration of How Firms Create and Capture Value with Open Source Software, in IFIP International Federation for Information Processing, Volume 287, Open IT-Based Innovation:  Moving Towards Cooperative IT Transfer and Knowledge Diffusion, eds. León, G., Bernardos, A., Casar, J., Kautz, K., and DeGross, J. (Boston:  Springer), pp. 229-246.
+
+1. Morgan, L. and Finnegan, P. (2007) How Perceptions of Open Source Software Influence Adoption: An Exploratory Study of Secondary Software Firms, Proceedings of the 15th European Conference on Information Systems (ECIS), South Africa.
+
+1. Morgan, L. and Finnegan, P. (2007) Benefits and Drawbacks of Open Source Software: An Exploratory Study of Secondary Software Firms, Proceedings of the 3rd IFIP 2.13 Conference on Open Source Software, Limerick Ireland, June 11th - 14th.
+
+1. Morgan, L. (2005).  An Analysis of COSPA: A Consortium for Open Source in the Public Administration. Proceedings of the First International Conference on Open Source Systems, Genova, Italy, July.
+
+1. Agerfalk, P., Deverell, A., Fitzgerald, B. and Morgan, L.  (2005).  Assessing the Role of Open Source Software in the European Secondary Software Sector: A Voice From Industry. Proceedings of the First International Conference on Open Source Systems, Genova, Italy, July1. 
