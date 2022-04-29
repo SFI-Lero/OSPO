@@ -90,7 +90,7 @@ An Open Source Program Office (OSPO) helps an organization create and manage an 
 <div>
   <div class="pquote">
   <p><img src="../img/people/brian.png" class="pquote-avatar">
-  The Lero OSPO is an important strategic division of Lero and it is a testament to our solidarity with the EU Open Science policy.
+  The Power of Open: Open Source, Open Data, Open Science, Open Innovation.
   </p>
   <p class="pquote-credit">
 — <a href="https://lero.ie/people/brian-fitzgerald">Brian Fitzgerald</a>
@@ -102,7 +102,7 @@ An Open Source Program Office (OSPO) helps an organization create and manage an 
 
 ## Why is OSPO important for Lero?
 
-The goal of Lero OSPO is to build an Open Source roadmap for Lero and help its members and partners understand how Lero deals with Open Source in its day-to-day activities. It is also an important step in executing Lero's Open Science policy.
+The Lero OSPO is an important strategic division of Lero that is a testament to our commitment to Open Science. The goal of Lero OSPO is to build an Open Source roadmap for Lero and help its members and partners understand how Lero deals with Open Source in its day-to-day activities. It is also an important step in executing Lero's Open Science policy.
 
 ## Where can I learn more about OSPO?
 
