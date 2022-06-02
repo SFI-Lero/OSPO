@@ -1,6 +1,7 @@
 # People
 
-- name: Dr Brian Fitzgerald
+- firstname: Brian
+  lastname: Fitzgerald
   role: Director of Lero
   affiliation: University of Limerick
   img: brian.png
@@ -13,9 +14,10 @@
   email_address: bf@lero.ie
   # interests: Open Source Software, Open Hardware, Open Data, Biomechanics, Bioengineering
   type: mentor
-  order: 1
+  # order: 1
 
-- name: Dr Patrick Healy
+- firstname: Patrick 
+  lastname: Healy
   role: Senior Lecturer 
   affiliation: University of Limerick
   img: HealyPatrick.jpeg
@@ -28,9 +30,10 @@
   email_address: patrick.healy@ul.ie
   # interests: Open Source Software, Open Hardware, Open Data, Biomechanics, Bioengineering
   type: mentor
-  order: 4
+  # order: 4
   
-- name: Dr Kevin M Moerman
+- firstname: Kevin M 
+  lastname: Moerman
   role: Lecturer Biomedical Engineering
   affiliation: National University Ireland Galway
   img: kmm_profile_crop.jpg
@@ -43,9 +46,10 @@
   email_address: kevin.moerman@nuigalway.ie
   # interests: Open Source Software, Open Hardware, Open Data, Biomechanics, Bioengineering
   type: mentor
-  order: 2
+  # order: 2
 
-- name: Dr Martina Prendergast
+- firstname: Martina 
+  lastname: Prendergast
   role: International Funding Manager
   affiliation: University of Limerick
   img: martina.jpeg
@@ -58,9 +62,10 @@
   email_address: Martina.Prendergast@lero.ie
   # interests: Open Source Software, Open Hardware, Open Data, Biomechanics, Bioengineering
   type: mentor
-  order: 3
+  # order: 3
 
-- name: Dr Tapajit Dey
+- firstname: Tapajit 
+  lastname: Dey
   role: Postdoctoral Fellow
   affiliation: University of Limerick
   img: tapajit.jpeg
@@ -73,9 +78,10 @@
   email_address: tapajit.dey@lero.ie
   # interests: Open Source Software, Open Hardware, Open Data, Biomechanics, Bioengineering
   type: mentor
-  order: 5
+  # order: 5
 
-- name: Mariana Clohessy
+- firstname: Mariana 
+  lastname: Clohessy
   role: ADMINISTRATOR
   affiliation: University of Limerick
   img: default.png
@@ -88,9 +94,10 @@
   email_address: Mariana.Clohessy@lero.ie
   # interests: Open Source Software, Open Hardware, Open Data, Biomechanics, Bioengineering
   type: member
-  order: 6
+  # order: 6
 
-- name: Dr Lorraine Morgan
+- firstname: Lorraine 
+  lastname: Morgan
   role: Senior Lecturer, J.E. Cairnes School of Business and Economics
   affiliation: National University Ireland Galway
   img: lmorgan.png
@@ -103,9 +110,10 @@
   email_address: lorraine.morgan@nuigalway.ie
   # interests: Open Source Software, Open Hardware, Open Data, Biomechanics, Bioengineering
   type: member
-  order: 7
+  # order: 7
     
-# - name: Dr Firstname Lastname
+# - firstname: Firstname 
+#   lastname: Lastname
 #   role: Role
 #   # affiliation: National University Ireland Galway
 #   img: default.png

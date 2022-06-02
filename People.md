@@ -16,7 +16,7 @@ ordernumber: 2
 
 
 
-{% assign sorted_people = site.data.people | sort:"order" %}
+{% assign sorted_people = site.data.people | sort:"lastname" %}
 
 # Mentors
 <html>
