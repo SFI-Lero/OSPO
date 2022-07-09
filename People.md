@@ -1,6 +1,6 @@
 ---
 layout: pagefullwidth
-title: "People"
+title: "Our Community"
 description: "The LERO OSPO community"
 logo:
 header-img: "img/home-bg.jpg"
