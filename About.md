@@ -93,7 +93,7 @@ An Open Source Program Office (OSPO) helps an organization create and manage an 
   The Power of Open: Open Source, Open Data, Open Science, Open Innovation.
   </p>
   <p class="pquote-credit">
-— <a href="https://lero.ie/people/brian-fitzgerald">Brian Fitzgerald</a>
+— <a href="https://lero.ie/people/brian-fitzgerald" target="_blank" >Brian Fitzgerald</a>
   </p>
 </div>
 </div>
@@ -106,10 +106,10 @@ The Lero OSPO is an important strategic division of Lero that is a testament to 
 
 ## Where can I learn more about OSPO?
 
-There is an excellent module discussing various aspects of Open Source and OSPO available at <https://ospo101.org/>.
+There is an excellent module discussing various aspects of Open Source and OSPO available at  <a href= "https://ospo101.org/" target="_blank">https://ospo101.org/</a>.
 
 ## Are there any other OSPOs in Ireland?
 
-The Trinity College Dublin hosts their own OSPO: <https://www.tcd.ie/innovation/OSPO/>.
+The Trinity College Dublin hosts their own OSPO:  <a href= "https://www.tcd.ie/innovation/OSPO/" target="_blank">https://www.tcd.ie/innovation/OSPO/</a>.
 
 [Back to top](#Top)
