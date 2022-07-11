@@ -1,6 +1,6 @@
 ---
 layout: pagefullwidth
-title: "Research"
+title: "Resources"
 description: "Lero OSPO research"
 logo:
 header-img: "img/home-bg.jpg"
