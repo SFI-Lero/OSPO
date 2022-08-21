@@ -1,12 +1,11 @@
 ---
 layout: default
-title: "Training and Resources"
+title: "Events"
 description: "The LERO OSPO community"
 logo:
 header-img:
-ordernumber:
+ordernumber: 4
 ---
-
 
 {%assign sorted_events = site.data.events | sort: "events" %}
 
@@ -15,10 +14,10 @@ ordernumber:
 <html>
 <div class="row">
 
-{% for events in sorted_events%} 
-    {{ events.name }}
-    {{ events.location }}
+{% for events in sorted_events%}
+{{ events.name }}
+{{ events.location }}
 {% endfor %}
+
 </div>
 </html>
-

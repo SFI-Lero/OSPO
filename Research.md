@@ -1,5 +1,5 @@
 ---
-layout: pagefullwidth
+layout: default
 title: "Resources"
 description: "Lero OSPO research"
 logo:
@@ -109,12 +109,12 @@ Lero researchers have a long history of contributing to Open Source research. On
 
 1. Morgan, L., Feller, J. and Finnegan, P. (2010) Value Creation and Capture with Open Source Software: A Theoretical Model for Understanding the Role of Value Networks, Proceedings of the 18th European Conference on Information Systems (ECIS), University of Pretoria, June.
 
-1. Morgan, L. and Finnegan, P. (2008) Deciding on Open Innovation: An Exploration of How Firms Create and Capture Value with Open Source Software, in IFIP International Federation for Information Processing, Volume 287, Open IT-Based Innovation:  Moving Towards Cooperative IT Transfer and Knowledge Diffusion, eds. León, G., Bernardos, A., Casar, J., Kautz, K., and DeGross, J. (Boston:  Springer), pp. 229-246.
+1. Morgan, L. and Finnegan, P. (2008) Deciding on Open Innovation: An Exploration of How Firms Create and Capture Value with Open Source Software, in IFIP International Federation for Information Processing, Volume 287, Open IT-Based Innovation: Moving Towards Cooperative IT Transfer and Knowledge Diffusion, eds. León, G., Bernardos, A., Casar, J., Kautz, K., and DeGross, J. (Boston: Springer), pp. 229-246.
 
 1. Morgan, L. and Finnegan, P. (2007) How Perceptions of Open Source Software Influence Adoption: An Exploratory Study of Secondary Software Firms, Proceedings of the 15th European Conference on Information Systems (ECIS), South Africa.
 
 1. Morgan, L. and Finnegan, P. (2007) Benefits and Drawbacks of Open Source Software: An Exploratory Study of Secondary Software Firms, Proceedings of the 3rd IFIP 2.13 Conference on Open Source Software, Limerick Ireland, June 11th - 14th.
 
-1. Morgan, L. (2005).  An Analysis of COSPA: A Consortium for Open Source in the Public Administration. Proceedings of the First International Conference on Open Source Systems, Genova, Italy, July.
+1. Morgan, L. (2005). An Analysis of COSPA: A Consortium for Open Source in the Public Administration. Proceedings of the First International Conference on Open Source Systems, Genova, Italy, July.
 
-1. Agerfalk, P., Deverell, A., Fitzgerald, B. and Morgan, L.  (2005).  Assessing the Role of Open Source Software in the European Secondary Software Sector: A Voice From Industry. Proceedings of the First International Conference on Open Source Systems, Genova, Italy, July1. 
+1. Agerfalk, P., Deverell, A., Fitzgerald, B. and Morgan, L. (2005). Assessing the Role of Open Source Software in the European Secondary Software Sector: A Voice From Industry. Proceedings of the First International Conference on Open Source Systems, Genova, Italy, July1.
