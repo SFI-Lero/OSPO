@@ -14,13 +14,13 @@
   email_address: bf@lero.ie
   # interests: Open Source Software, Open Hardware, Open Data, Biomechanics, Bioengineering
   type: mentor
-  # order: 1
+  order: 1
 
-- firstname: Patrick 
+- firstname: Patrick
   lastname: Healy
-  role: Senior Lecturer 
+  role: Senior Lecturer
   affiliation: University of Limerick
-  img: HealyPatrick.jpeg
+  img: patrick.png
   url: https://www.linkedin.com/in/patrick-healy-684317222/
   github_username: healyp
   # twitter_username: KMMoerman
@@ -30,13 +30,13 @@
   email_address: patrick.healy@ul.ie
   # interests: Open Source Software, Open Hardware, Open Data, Biomechanics, Bioengineering
   type: mentor
-  # order: 4
-  
-- firstname: Kevin M 
+  order: 4
+
+- firstname: Kevin M
   lastname: Moerman
   role: Lecturer Biomedical Engineering
   affiliation: National University Ireland Galway
-  img: kmm_profile_crop.jpg
+  img: kevin.png
   url: https://kevinmoerman.org
   github_username: Kevin-Mattheus-Moerman
   # twitter_username: KMMoerman
@@ -46,13 +46,13 @@
   email_address: kevin.moerman@nuigalway.ie
   # interests: Open Source Software, Open Hardware, Open Data, Biomechanics, Bioengineering
   type: mentor
-  # order: 2
+  order: 2
 
-- firstname: Martina 
+- firstname: Martina
   lastname: Prendergast
   role: International Funding Manager
   affiliation: University of Limerick
-  img: martina.jpeg
+  img: martina.png
   url: https://lero.ie/people/martina-prendergast
   github_username: MartinaPrendergast
   # twitter_username: KMMoerman
@@ -62,13 +62,13 @@
   email_address: Martina.Prendergast@lero.ie
   # interests: Open Source Software, Open Hardware, Open Data, Biomechanics, Bioengineering
   type: mentor
-  # order: 3
+  order: 3
 
-- firstname: Tapajit 
+- firstname: Tapajit
   lastname: Dey
   role: Postdoctoral Fellow
   affiliation: University of Limerick
-  img: tapajit.jpeg
+  img: tapajit.png
   url: https://lero.ie/people/tapajit-dey
   github_username: tapjdey
   # twitter_username: KMMoerman
@@ -78,9 +78,9 @@
   email_address: tapajit.dey@lero.ie
   # interests: Open Source Software, Open Hardware, Open Data, Biomechanics, Bioengineering
   type: mentor
-  # order: 5
+  order: 5
 
-- firstname: Mariana 
+- firstname: Mariana
   lastname: Clohessy
   role: ADMINISTRATOR
   affiliation: University of Limerick
@@ -94,13 +94,13 @@
   email_address: Mariana.Clohessy@lero.ie
   # interests: Open Source Software, Open Hardware, Open Data, Biomechanics, Bioengineering
   type: member
-  # order: 6
+  order: 6
 
-- firstname: Lorraine 
+- firstname: Lorraine
   lastname: Morgan
   role: Senior Lecturer, J.E. Cairnes School of Business and Economics
   affiliation: National University Ireland Galway
-  img: lmorgan.png
+  img: morgan.png
   url: https://lero.ie/people/lorraine-morgan
   # github_username: Kevin-Mattheus-Moerman
   # twitter_username: KMMoerman
@@ -110,9 +110,8 @@
   email_address: lorraine.morgan@nuigalway.ie
   # interests: Open Source Software, Open Hardware, Open Data, Biomechanics, Bioengineering
   type: member
-  # order: 7
-    
-# - firstname: Firstname 
+  order: 7
+# - firstname: Firstname
 #   lastname: Lastname
 #   role: Role
 #   # affiliation: National University Ireland Galway

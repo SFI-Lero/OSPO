@@ -1,68 +1,59 @@
 <!-- Footer -->
 <footer>
-  <div style="margin-left: 3rem; margin-right: 3rem;">
-
-    <br/>
-
-                <ul class="list-inline text-center">
-                  {% if site.email_address %}
-                  <li>
-                      <a href="mailto:{{ site.email_address }}">
-                        <img alt="e-mail" style="height:2rem;" src="{{ site.baseurl }}/img/icons/email_icon.png" />
-                      </a>
-                  </li>
-                  {% endif %}
-                  {% if site.github_username %}
-                  <li>
-                    <a href="https://github.com/{{ site.github_username }}" target="_blank">
-                        <img alt="GitHub profile" style="height:2rem;" src="{{ site.baseurl }}/img/icons/github-icon.png" />
-                      </a>
-                  </li>
-                  {% endif %}
-                  {% if site.orcid_id %}
-                  <li>
-                      <a href="http://orcid.org/{{ site.orcid_id }}" target="_blank">
-                        <img alt="ORCiD profile" style="height:2rem;" src="{{ site.baseurl }}/img/icons/orcid.png" />
-                      </a>
-                  </li>
-                  {% endif %}
-                  {% if site.impactstory_id %}
-                  <li>
-                      <a href="http://impactstory.org/{{ site.impactstory_id }}" target="_blank">
-                        <img alt="ImpactStory profile" style="height:2rem;" src="{{ site.baseurl }}/img/icons/impactStory.png" />
-                      </a>
-                  </li>
-                  {% endif %}
-
-                  {% if site.googlescholar_url %}
-                  <li>
-                      <a href="{{ site.googlescholar_url }}" target="_blank">
-                        <img alt="Google Scholar" style="height:2rem;" src="{{ site.baseurl }}/img/icons/google-scholar.png" />
-                      </a>
-                  </li>
-                  {% endif %}
-
-                    {% if site.twitter_username %}
-                    <li>
-                      <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
-                          <img alt="Twitter profile" style="height:2rem;" src="{{ site.baseurl }}/img/icons/twitter.png" />
-                        </a>
-                    </li>
-                    {% endif %}
-                    {% if site.linkedin_username %}
-                    <li>
-                      <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
-                          <img alt="LinkedIn profile" style="height:2rem;" src="{{ site.baseurl }}/img/icons/linkedin.png" />
-                        </a>
-                    </li>
-                    {% endif %}
-                </ul>
-
-                <p class="copyright text-muted">
-                  <b> © {{ site.title }}</b>
-                  <br/>
-                  <br/>Website content license: <a rel="Website license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="CC-BY-4.0" style="border-width:0" src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" /></a>
-                  <br/>Website design by <a rel="Kevin Moerman" href="https://kevinmoerman.org/" target="_blank">Kevin Moerman</a>, <a rel="Tapajit Dey" href="https://tapjdey.github.io/" target="_blank">Tapajit Dey</a>
-                </p>
+  <div class="footer-main custom-container pb-4 pt-4 border-bottom">
+    <div class="row">
+      <div class="col-md-3">
+        <h6>Founded By</h6>
+        <img src="{{ site.baseurl }}/img/sfi-footer.png" alt="SFI-grayed" />
+      </div>
+      <div class="col-md-3">
+        <h6>Quick Links</h6>
+        <ul class="footer-list">
+          {% for quick_link in site.quick_links %}
+            <li><a href="{{quick_link.url}}">{{quick_link.name}}</a></li>
+            
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h6>Stay in Touch</h6>
+        <div class="btn btn-lero mb-3 text-14">Subscribe our Newsletter</div>
+        <div>Also follow us on</div>
+        <div class="d-flex mt-2">
+          {% if site.github_username %}
+            <div class="ic-box gh"><a href="https://github.com/{{ site.github_username }}"  target="_blank"> <i class="bi bi-github"></i> </a></div>
+          {% endif %}
+          {% if site.twitter_username %}
+            <div class="ic-box tw"><a href="https://twitter.com/{{ site.twitter_username }}"  target="_blank"> <i class="bi bi-twitter"></i> </a> </div>
+          {% endif %}
+        </div>
+      </div>
+      <div class="col-md-3">
+        <h6>Contact</h6>
+        <div>Tierney Building</div>
+        <div>University of Limerick</div>
+        <div>Ireland</div>
+        <div>Postcode : V94 NYD3</div>
+        <div class="mt-1"><span class="fw-bolder">Tel:</span> +353 61 213028</div>
+        <div><span class="fw-bolder">Fax:</span> +35361213036</div>
+        <div><span class="fw-bolder">Email:</span> info@lero.ie</div>
+      </div>
     </div>
+  </div>
+  <div class="partners">
+    <img src="{{ site.baseurl }}/img/Lero Partners.png" alt="lero partners" />
+  </div>
+  <div class="footer-bottom">
+    <div class="d-flex align-items-baseline" style="gap:8px;"><small>© Copyright 2022</small> <img src="{{ site.baseurl }}/img/lero-ospo-white.svg"
+        alt="lero-ospo white" class="pl-1" /></div>
+  </div>
 </footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+  crossorigin="anonymous"></script>

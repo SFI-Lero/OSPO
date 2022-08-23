@@ -1,51 +1,32 @@
-<!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                  <a href="{{ site.baseurl }}/">
-                    <img alt="Home" style="height:2rem;" src="{{ site.baseurl }}/img/icons/home.png" />
-                  </a>
-                </li>
-
-                {% assign sorted_pages = site.pages | sort:"ordernumber"%}
-                {% for page in sorted_pages %}
-                  {% if page.url contains "projects/" %}
-                    {% else %}
-                    {% if page.title %}
-                      <li>
-                        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                      </li>
-                    {% endif %}
-                  {% endif %}
-                {% endfor %}
-
-                {% for page in site.pages %}
-                  {% if page.url contains "projects/" %}
-                    {% if page.title %}
-                    <li>
-                      <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                    </li>
-                    {% endif %}
-                  {% endif %}
-                {% endfor %}
-
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+{% assign sorted_pages = site.pages | sort:"ordernumber"%}
+<header class="relative">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="{{ site.baseurl }}/">
+      <img src="{{ site.baseurl }}/img/LeroOSPO-logo.png" class="logo" alt="Lero-OSPO">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        {% for node in sorted_pages %}
+          {% if node.ordernumber %}
+            {% if page.url == node.url %}
+              <li class="nav-item active">
+                <a class="nav-link" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
+              </li>
+            {% else %}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
+              </li>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </ul>
     </div>
-    <!-- /.container -->
-</nav>
+  </nav>
+  <div class="sfi-banner">
+    <img src="{{ site.baseurl }}/img/SFI Logo.png" class="sfi-img" />
+  </div>
+</header>

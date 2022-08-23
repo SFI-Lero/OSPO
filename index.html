@@ -1,21 +1,78 @@
 ---
-layout: pagefullwidth
+layout: default
+title: "Home"
+description: "Homepage"
+ordernumber: 1
 ---
 
-<div class="row">
+<section>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="{{ site.baseurl }}/img/agri.jpg" alt="First slide">
+          <div id="discription">
+                    <h4>We help in</h4>
+                    <h2>Agriculure Tech</h2>
+                </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="{{ site.baseurl }}/img/auto.jpg" alt="Second slide">
+          <div id="discription">
+                    <h4>We help in </h4>
+                    <h2>Connected Autonomous Vehicles</h2>
+                </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="{{ site.baseurl }}/img/fit.jpg" alt="Third slide">
+          <div id="discription">
+                    <h4>We help in </h4>
+                    <h2>Fitness Tech</h2>
+                </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="{{ site.baseurl }}/img/smart.jpg" alt="Third slide">
+          <div id="discription">
+                    <h4>We help in</h4>
+                    <h2>Smart Communities and Smart Cities</h2>
+                </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
- <div class="col-sm-12">
-   {% capture my_include %}{% include Home.md %}{% endcapture %}
-   {{ my_include | markdownify }}
- </div>
+  <section class="colored text-center text-white ">
+    <div class="custom-container">
+      <h3 class="mb-4">The LERO Open Source Programme Office</h3>
+      <p>The Lero Open Source Program Office (Lero-OSPO) is a dedicated platform that is set up with the goal of
+        promoting engagement between Lero members, stakeholders, and the broader Open Source community. The primary
+        functions of the OSPO include overseeing the development and management of open source software at Lero, the
+        Science Foundation Ireland Research Centre for Software, with responsibilities including open source library
+        selection, license compliance workflows, managing Lero members’relationship with the broader open source
+        software (OSS) community, and more. Other than supporting Lero members’ interaction with the OSS community, the
+        OSPO also advocates and promotes Lero’s Open Science policies and helps the Lero members with various activities
+        & efforts related to Open Science.</p>
+    </div>
+  </section>
+  <div class="custom-container bg-light py-5">
+    <p>The two core values managed and advocated by Lero-OSPO aree:</p>
 
- <!-- <div class="col-sm-4">
-   <h1>Twitter</h1>
-     <a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @{{site.twitter_username }}</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-     <br>    
-    <a class="twitter-timeline" href="https://twitter.com/{{ site.twitter_username }}">Tweets by {{ site.twitter_username }}</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-  <h1>GitHub</h1>
-    <a href="https://github.com/{{ site.github_username }}">Check Lero Github: {{ site.github_username }}</a>
- </div> -->
+    <p>Comply: Open source software is free to use, but comes with an important responsibility: to comply with licensing
+      requirements. Given the number and variety of licenses — not to mention the difficulty of unearthing deep
+      dependencies — this can sometimes be easier said than done. Lero members must comply with licensing requirements
+      in order to avoid potential litigation or reputational damage to Lero and its partners. One of the main functions
+      of Lero-OSPO is governing license compliance, including determining which licenses can be used with which projects
+      and overseeing how teams track their open source components and dependencies.</p>
 
-</div>
+    <p>Contribute: The OSS community is a diverse group that includes everyone from individual developers to large
+      enterprises that sponsor various projects. Contribution is a core pillar of the open source community mindset and
+      it is also one of the main reasons why open source has thrived in recent years. Lero encourages its members to
+      contribute back to the OSS community (see Lero Open Science Charter - link to be added), which not only builds
+      goodwill with the Open Source community whose code might be the building block for one or more Lero projects, but
+      also can be beneficial in creating potential funding opportunities by showcasing Lero’s contributions (because
+      Open Science contributions are much more visible) to interested parties.</p>
+
+    <p>Other than supporting Lero members’ interaction with the OSS community, the OSPO also advocates and promotes
+      Lero’s Open Science policies and helps the Lero members with various activities & efforts related to Open Science.
+    </p>
+
+  </div>
