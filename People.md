@@ -59,7 +59,7 @@ ordernumber: 2
 <div class="container">
   <div class="row">
     {% for people in sorted_people %} 
-      {% if people.type == "mentor" and people.order != 1 %}
+      {% unless people.order == 1 %}
         <div class="col-md-3">
           <div class="member-block ver">
             <div class="member-info">
@@ -94,48 +94,8 @@ ordernumber: 2
             </div>
           </div>
         </div>
-      {% endif %}
+      {% endunless %}
     {% endfor %}
   </div>
 
-</div>
-<section class="py-5 mt-5">
-  <div class="custom-container">
-    <h2 class="mb-3 text-center">Members</h2> 
-    <p class="text-justify">
-      A mentor is someone who teaches or gives help and advice to a less experienced and often younger person. In an organizational setting, a mentor influences the personal and professional growth of a mentee.
-    </p>
-  </div>
-</section>
-<div class="container mb-5">
-  <div class="row justify-content-center">
-    {% for people in sorted_people %} 
-      {% if people.type == "member" %}
-        <div class="col-md-3">
-          <div class="member-block ver">
-            <div class="member-info">
-              {% if people.img %}
-               <div class="pp small mb-2">
-                    <img class="profile_img" alt="" src="{{ site.baseurl }}/img/people/{{ people.img }}">
-                </div>
-              {% endif %}
-              <h6>{{ people.lastname }}, {{ people.firstname }}</h6>
-              <p>{{ people.role }}</p>
-              <label class="text-secondary text-uppercase text-muted">{{ people.affiliation }}</label>
-            </div>
-            <div class="member-details">
-              <p> {{ people.interests }}</p>
-              <div class="d-flex mt-2">
-                {% if people.email_address %}
-                  <a href="mailto:{{ people.email_address }}">
-                    <div class="ic-box gh"><i class="bi bi-envelope-fill"></i></div>
-                  </a>
-                {% endif %}
-              </div>
-            </div>
-          </div>
-        </div>
-      {% endif %}
-    {% endfor %}
-  </div>
 </div>
