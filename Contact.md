@@ -7,8 +7,14 @@ header-img: "img/home-bg.jpg"
 ordernumber: 99
 ---
 
-# Follow us on twitter
-<a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @{{ site.twitter_username }}</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-# Contact us by e-mail
-[Email us: {{ site.contactEmail }} ](mailto:{{ site.contactEmail }}).
+<section class="py-5 position-relative">
+  <div class="custom-container">
+  <h4 class="mb-3">Follow us on social media</h4> 
+    <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @{{ site.twitter_username }}</a>
+    <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @{{ site.twitter_username }}</a>
+    <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @{{ site.twitter_username }}</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+     <h4 class="mt-5 mb-3">Contact us by e-mail</h4> 
+    [Email us: {{ site.contactEmail }} ](mailto:{{ site.contactEmail }}).
+</div>
+</section>
