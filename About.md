@@ -33,7 +33,7 @@ ordernumber: 2
 <section class="py-3 mt-5">
   <div class="custom-container">
     <h3 class="mb-3">Our Core Values</h3> 
-      <p class="text-justify">The two core values managed and advocated by Lero-OSPO aree: </p>
+      <p class="text-justify">The two core values managed and advocated by Lero-OSPO are: </p>
 
       <p class="text-justify">
         Comply: Open source software is free to use, but comes with an important responsibility: to comply with licensing
