@@ -32,24 +32,27 @@ ordernumber: 2
           <p>{{ people.role }}</p>
           <label class="text-secondary text-uppercase text-muted">{{ people.affiliation }}</label>
         </div>
-        <div class="member-details">
+        <div class="member-details fw">
           <p> {{ people.interests }}</p>
-          <div class="d-flex mt-2">
-            {% if people.email_address %}
-              <a href="mailto:{{ people.email_address }}">
-                <div class="ic-box gh"><i class="bi bi-envelope-fill"></i></div>
-              </a>
-            {% endif %}
-            {% if people.github_username %}
-              <a href="https://github.com/{{ people.github_username }}" target="__blank">
-                <div class="ic-box gh"><i class="bi bi-github"></i></div>
-              </a>
-            {% endif %}
-            {% if people.twitter_username %}
-                <a href="https://twitter.com/{{ people.twitter_username }}" target="__blank">
-                  <div class="ic-box tw"><i class="bi bi-twitter"></i></div>
+          <div class="d-flex justify-content-between align-items-center bottom">
+            <div class="d-flex mt-2">
+              {% if people.email_address %}
+                <a href="mailto:{{ people.email_address }}">
+                  <div class="ic-box gh"><i class="bi bi-envelope-fill"></i></div>
                 </a>
-            {% endif %}
+              {% endif %}
+              {% if people.github_username %}
+                <a href="https://github.com/{{ people.github_username }}" target="__blank">
+                  <div class="ic-box gh"><i class="bi bi-github"></i></div>
+                </a>
+              {% endif %}
+              {% if people.twitter_username %}
+                  <a href="https://twitter.com/{{ people.twitter_username }}" target="__blank">
+                    <div class="ic-box tw"><i class="bi bi-twitter"></i></div>
+                  </a>
+              {% endif %}
+            </div>
+            <a class="btn btn-lero-outline" href="{{site.base_url/}}">View more</a>
           </div>
         </div>
       {% endif %}
@@ -74,22 +77,25 @@ ordernumber: 2
             </div>
             <div class="member-details">
               <p> {{ people.interests }}</p>
+              <div class="d-flex justify-content-between align-items-center">
               <div class="d-flex mt-2">
-                {% if people.email_address %}
-                  <a href="mailto:{{ people.email_address }}">
-                    <div class="ic-box gh"><i class="bi bi-envelope-fill"></i></div>
-                  </a>
-                {% endif %}
-                {% if people.github_username %}
-                  <a href="https://github.com/{{ people.github_username }}" target="__blank">
-                    <div class="ic-box gh"><i class="bi bi-github"></i></div>
-                  </a>
-                {% endif %}
-                {% if people.twitter_username %}
-                    <a href="https://twitter.com/{{ people.twitter_username }}" target="__blank">
-                      <div class="ic-box tw"><i class="bi bi-twitter"></i></div>
+                  {% if people.email_address %}
+                    <a href="mailto:{{ people.email_address }}">
+                      <div class="ic-box gh"><i class="bi bi-envelope-fill"></i></div>
                     </a>
-                {% endif %}
+                  {% endif %}
+                  {% if people.github_username %}
+                    <a href="https://github.com/{{ people.github_username }}" target="__blank">
+                      <div class="ic-box gh"><i class="bi bi-github"></i></div>
+                    </a>
+                  {% endif %}
+                  {% if people.twitter_username %}
+                      <a href="https://twitter.com/{{ people.twitter_username }}" target="__blank">
+                        <div class="ic-box tw"><i class="bi bi-twitter"></i></div>
+                      </a>
+                  {% endif %}
+                </div>
+                <a class="btn btn-lero-outline" href="mentor-details.html">View more</a>
               </div>
             </div>
           </div>
