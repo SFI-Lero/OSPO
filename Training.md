@@ -7,7 +7,7 @@ header-img:
 ordernumber: 4
 ---
 
-{% assign sorted_events = site.data.events | sort: "events" %}
+{% assign sorted_events = site.events | sort: "date" %}
 
 <section class="py-5">
   <div class="custom-container">
@@ -27,7 +27,7 @@ ordernumber: 4
             <div class="card-img-overlay d-flex flex-column">
               <div class="card-body">
                 <small class="card-meta mb-2">{{event.name}}</small>
-                <h4 class="card-title mt-0 "><a class="text-white" herf="{{site.baseurl}}">{{event.short_description}}</a></h4>
+                <h4 class="card-title mt-0 "><a class="text-white" href="/OSPO/{{event.url}}">{{event.short_description}}</a></h4>
                 <small class="text-underline"><i class="far fa-clock"></i> {{event.date}} </small>
               </div>
               <!-- <div class="card-footer">

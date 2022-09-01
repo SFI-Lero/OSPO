@@ -58,6 +58,8 @@ collections:
   #   layout: ""
   mentors:
     output: true
+  events:
+    output: true
 
 # Prose Settings
 prose:

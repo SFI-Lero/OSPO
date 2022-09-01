@@ -4,7 +4,7 @@ title: "Home"
 description: "Homepage"
 ordernumber: 1
 ---
-{%assign sorted_events = site.data.events | sort: "events" %}
+{%assign sorted_events = site.events | sort: "date" %}
 <section>
   <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner">
@@ -67,7 +67,7 @@ ordernumber: 1
             <div class="card-img-overlay d-flex flex-column">
               <div class="card-body">
                 <small class="card-meta mb-2">{{event.name}}</small>
-                <h4 class="card-title mt-0 "><a class="text-white" herf="{{site.baseurl}}">{{event.short_description}}</a></h4>
+                <h4 class="card-title mt-0 "><a class="text-white" href="/OSPO{{event.url}}">{{event.short_description}}</a></h4>
                 <small class="text-underline"><i class="far fa-clock"></i> {{event.date}}</small>
               </div>
               <!-- <div class="card-footer">
