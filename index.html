@@ -4,134 +4,84 @@ title: "Home"
 description: "Homepage"
 ordernumber: 1
 ---
-
+{%assign sorted_events = site.data.events | sort: "events" %}
 <section>
-    <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="{{ site.baseurl }}/img/agri.jpg" alt="First slide">
-          <div id="discription">
-                    <h4>We help to develop</h4>
-                    <h2>Agriculture Tech</h2>
-                </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="{{ site.baseurl }}/img/auto.jpg" alt="Second slide">
-          <div id="discription">
-                    <h4>We help to develop </h4>
-                    <h2>Connected Autonomous Vehicles</h2>
-                </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="{{ site.baseurl }}/img/fit.jpg" alt="Third slide">
-          <div id="discription">
-                    <h4>We help in </h4>
-                    <h2>Fitness Tech</h2>
-                </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="{{ site.baseurl }}/img/smart.jpg" alt="Third slide">
-          <div id="discription">
-                    <h4>We help to develop</h4>
-                    <h2>Smart Communities and Smart Cities</h2>
-                </div>
+  <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="{{ site.baseurl }}/img/agri.jpg" alt="agriculture tech">
+        <div id="discription">
+            <h4>We help to develop</h4>
+            <h2>Agriculture Tech</h2>
         </div>
       </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="{{ site.baseurl }}/img/auto.jpg" alt="connected autonomous vehicles">
+        <div id="discription">
+                  <h4>We help to develop </h4>
+                  <h2>Connected Autonomous Vehicles</h2>
+              </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="{{ site.baseurl }}/img/fit.jpg" alt="fitness tech">
+        <div id="discription">
+                  <h4>We help in </h4>
+                  <h2>Fitness Tech</h2>
+              </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="{{ site.baseurl }}/img/smart.jpg" alt="smart communities and smart cities">
+        <div id="discription">
+                  <h4>We help to develop</h4>
+                  <h2>Smart Communities and Smart Cities</h2>
+              </div>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="colored text-center text-white ">
-    <div class="custom-container">
-      <h3 class="mb-4">The LERO Open Source Programme Office</h3>
-      <p>The Lero Open Source Program Office (Lero-OSPO) is a dedicated platform that is set up with the goal of
-        promoting engagement between Lero members, stakeholders, and the broader Open Source community. The primary
-        functions of the OSPO include overseeing the development and management of open source software at Lero, the
-        Science Foundation Ireland Research Centre for Software, with responsibilities including open source library
-        selection, license compliance workflows, managing Lero members’relationship with the broader open source
-        software (OSS) community, and more. Other than supporting Lero members’ interaction with the OSS community, the
-        OSPO also advocates and promotes Lero’s Open Science policies and helps the Lero members with various activities
-        & efforts related to Open Science.</p>
-    </div>
-  </section>
-  <section class="py-5">
-    <div class="custom-container">
-      <h2 class="mb-3 text-center">Upcomming events</h2>
-      <p class="text-justify">
-        An event is something that happens, especially when it is unusual or important. You can use events to describe
-        all the things that are happening in a particular situation.
-      </p>
-    </div>
-    <div class="custom-container">
-      <div class="row">
+<section class="colored text-center text-white ">
+  <div class="custom-container">
+    <h3 class="mb-4">The LERO Open Source Programme Office</h3>
+    <p>The Lero Open Source Program Office (Lero-OSPO) is a dedicated platform that is set up with the goal of
+      promoting engagement between Lero members, stakeholders, and the broader Open Source community. The primary
+      functions of the OSPO include overseeing the development and management of open source software at Lero, the
+      Science Foundation Ireland Research Centre for Software, with responsibilities including open source library
+      selection, license compliance workflows, managing Lero members' relationship with the broader open source
+      software (OSS) community, and more. Other than supporting Lero members' interaction with the OSS community, the
+      OSPO also advocates and promotes Lero's Open Science policies and helps the Lero members with various activities
+      & efforts related to Open Science.</p>
+  </div>
+</section>
+<section class="py-5">
+  <div class="custom-container">
+    <h2 class="mb-3 text-center">Upcomming Events</h2>
+  </div>
+  <div class="custom-container">
+    <div class="row">
+      {% for event in sorted_events%}
         <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
           <div class="card text-white card-has-bg click-col"
             style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
             <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street"alt="random">
             <div class="card-img-overlay d-flex flex-column">
               <div class="card-body">
-                <small class="card-meta mb-2">Thought Leadership</small>
-                <h4 class="card-title mt-0 "><a class="text-white" herf="#">Goverment Lorem Ipsum Sit Amet Consectetur
-                    dipisi?</a></h4>
-                <small class="text-underline"><i class="far fa-clock"></i> October 15, 2020</small>
+                <small class="card-meta mb-2">{{event.name}}</small>
+                <h4 class="card-title mt-0 "><a class="text-white" herf="{{site.baseurl}}">{{event.short_description}}</a></h4>
+                <small class="text-underline"><i class="far fa-clock"></i> {{event.date}}</small>
               </div>
-              <div class="card-footer">
+              <!-- <div class="card-footer">
                 <div class="media">
                   <div class="media-body">
                     <h6 class="my-0 text-white d-block">Organizer</h6>
                     <small>Organiz description</small>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
-          <div class="card text-white card-has-bg click-col"
-            style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
-            <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street"
-              alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
-            <div class="card-img-overlay d-flex flex-column">
-              <div class="card-body">
-                <small class="card-meta mb-2">Thought Leadership</small>
-                <h4 class="card-title mt-0 "><a class="text-white" herf="#">Goverment Lorem Ipsum Sit Amet Consectetur
-                    dipisi?</a></h4>
-                <small class="text-underline"><i class="far fa-clock"></i> October 15, 2020</small>
-              </div>
-              <div class="card-footer">
-                <div class="media">
-                  <div class="media-body">
-                    <h6 class="my-0 text-white d-block">Organizer</h6>
-                    <small>Organiz description</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
-          <div class="card text-white card-has-bg click-col"
-            style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
-            <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street"
-              alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
-            <div class="card-img-overlay d-flex flex-column">
-              <div class="card-body">
-                <small class="card-meta mb-2">Thought Leadership</small>
-                <h4 class="card-title mt-0 "><a class="text-white" herf="#">Goverment Lorem Ipsum Sit Amet Consectetur
-                    dipisi?</a></h4>
-                <small class="text-underline"><i class="far fa-clock"></i> October 15, 2020</small>
-              </div>
-              <div class="card-footer">
-                <div class="media">
-                  <div class="media-body">
-                    <h6 class="my-0 text-white d-block">Organizer</h6>
-                    <small>Organiz description</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
+      {% endfor %}
     </div>
-  </section>
+  </div>
+</section>

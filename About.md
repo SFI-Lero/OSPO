@@ -34,7 +34,6 @@ ordernumber: 2
   <div class="custom-container">
     <h3 class="mb-3">Our Core Values</h3> 
       <p class="text-justify">The two core values managed and advocated by Lero-OSPO are: </p>
-
       <p class="text-justify">
         Comply: Open source software is free to use, but comes with an important responsibility: to comply with licensing
       requirements. Given the number and variety of licenses — not to mention the difficulty of unearthing deep
@@ -43,7 +42,6 @@ ordernumber: 2
       of Lero-OSPO is governing license compliance, including determining which licenses can be used with which projects
       and overseeing how teams track their open source components and dependencies.
       </p>
-
       <p class="text-justify">
         Contribute: The OSS community is a diverse group that includes everyone from individual developers to large
       enterprises that sponsor various projects. Contribution is a core pillar of the open source community mindset and
@@ -53,11 +51,9 @@ ordernumber: 2
       also can be beneficial in creating potential funding opportunities by showcasing Lero’s contributions (because
       Open Science contributions are much more visible) to interested parties.
       </p>
-
     <p class="text-justify">Other than supporting Lero members’ interaction with the OSS community, the OSPO also advocates and promotes
       Lero’s Open Science policies and helps the Lero members with various activities & efforts related to Open Science.
     </p>
-
   </div>
 </section>
 <section class="py-3 mt-5">

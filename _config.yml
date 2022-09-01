@@ -53,12 +53,11 @@ defaults:
       header-img: "img/home-bg.jpg"
 
 collections:
-  modules:
+  # modules:
+  #   output: true
+  #   layout: ""
+  mentors:
     output: true
-    layout: ""
-  people:
-    output: true
-    layout: page
 
 # Prose Settings
 prose:
