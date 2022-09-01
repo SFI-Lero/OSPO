@@ -7,7 +7,7 @@ header-img: "img/home-bg.jpg"
 ordernumber: 2
 ---
 
-{% assign sorted_people = site.data.people | sort:"order" %}
+{% assign sorted_people = site.mentors | sort: "order" %}
 
 <section class="py-5">
   <div class="custom-container">
@@ -21,7 +21,7 @@ ordernumber: 2
 <div class="container w-100 mb-4">
   <div class="member-block hor mx-auto">
     {% for people in sorted_people %} 
-      {% if people.type == "mentor" and people.order == 1 %}
+      {% if people.order == 1 %}
         <div class="member-info">
           {% if people.img %}
             <div class="pp small mb-2">
@@ -33,7 +33,7 @@ ordernumber: 2
           <label class="text-secondary text-uppercase text-muted">{{ people.affiliation }}</label>
         </div>
         <div class="member-details fw">
-          <p> {{ people.interests }}</p>
+          <p> {{ people.description }}</p>
           <div class="d-flex justify-content-between align-items-center bottom">
             <div class="d-flex mt-2">
               {% if people.email_address %}
@@ -52,7 +52,8 @@ ordernumber: 2
                   </a>
               {% endif %}
             </div>
-            <a class="btn btn-lero-outline" href="{{site.base_url/}}">View more</a>
+            <a class="btn btn-lero-outline" href="{{site.baseurl}}/mentors/{{people.firstname | downcase}}-{{people.lastname | downcase}}">View more</a>
+            <!-- <a class="btn btn-lero-outline" href="{{site.baseurl}}/Member_Detail/">View more</a> -->
           </div>
         </div>
       {% endif %}
@@ -76,7 +77,7 @@ ordernumber: 2
               <label class="text-secondary text-uppercase text-muted">{{ people.affiliation }}</label>
             </div>
             <div class="member-details">
-              <p> {{ people.interests }}</p>
+              <p> {{ people.description }}</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="d-flex mt-2">
                   {% if people.email_address %}
@@ -95,7 +96,7 @@ ordernumber: 2
                       </a>
                   {% endif %}
                 </div>
-                <a class="btn btn-lero-outline" href="mentor-details.html">View more</a>
+                <a class="btn btn-lero-outline" href="{{site.baseurl}}/mentors/{{people.firstname | downcase}}-{{people.lastname | downcase}}/">View more</a>
               </div>
             </div>
           </div>

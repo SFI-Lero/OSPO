@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<section class="py-5 position-relative">
+  <a class="back" href="{{ site.baseurl}}/mentors/">
+    <i class="bi bi-arrow-left-short"></i>
+  </a >
+  <div class="custom-container">
+    <h4 class="mb-5">Mentor Details</h4>
+    <div class="row">
+      <div class="col-md-3">
+        <img src="{{ site.baseurl }}/img/mentor_detail/{{ page.mentor_detail_img }}" alt="{{page.firstname}} {{page.lastname}}" class=" rounded-4 img-fluid img-thumbnail">
+      </div>
+      <div class="col-md-9">
+        <table class="table-borderless table">
+          <tr>
+            <td class="text-muted">Fullname</td>
+            <td class="font-weight-bold">{{page.firstname}} {{page.lastname}}</td>
+          </tr>
+          <tr>
+            <td class="text-muted">Role</td>
+            <td class="font-weight-bold">{{page.role}}</td>
+          </tr>
+          <tr>
+            <td class="text-muted">Affiliation</td>
+            <td class="font-weight-bold">{{page.affiliation}}</td>
+          </tr>
+          <tr>
+            <td class="text-muted">Email</td>
+            <td class="font-weight-bold"><a href="mailto: bf@lero.ie">{{page.email_address}}</a></td>
+          </tr>
+          <tr>
+            <td class="text-muted">About</td>
+            <td class="font-weight-bold">{{page.description}}</td>
+          </tr>
+          <tr>
+            <td class="text-muted">Social links</td>
+            <td>
+              <div class="d-flex">
+                {% if page.github_username %}
+                  <a href="https://github.com/{{ page.github_username }}" target="__blank">
+                    <div class="ic-box gh"><i class="bi bi-github"></i></div>
+                  </a>
+                {% endif %}
+                {% if page.twitter_username %}
+                    <a href="https://twitter.com/{{ page.twitter_username }}" target="__blank">
+                      <div class="ic-box tw"><i class="bi bi-twitter"></i></div>
+                    </a>
+                {% endif %}
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
