@@ -1,6 +1,25 @@
-- name: Event 1
+- name: Software Development Lifecycle For Undergrads
   location: kathmandu
-  date: 2022
-- name: Event 2
+  date: Oct 22, 1994
+  short_description: An event for learning about the new SDLC for everyone who is studying at University of Limerick as an undergrad.
+  image:
+- name: Software Development Lifecycle For Undergrads
   location: kathmandu
-  date: 2022
+  date: Oct 22, 1994
+  short_description: An event for learning about the new SDLC for everyone who is studying at University of Limerick as an undergrad.
+  image:
+- name: Software Development Lifecycle For Undergrads
+  location: kathmandu
+  date: Oct 22, 1994
+  short_description: An event for learning about the new SDLC for everyone who is studying at University of Limerick as an undergrad.
+  image:
+- name: Software Development Lifecycle For Undergrads
+  location: kathmandu
+  date: Oct 22, 1994
+  short_description: An event for learning about the new SDLC for everyone who is studying at University of Limerick as an undergrad.
+  image:
+- name: Software Development Lifecycle For Undergrads
+  location: kathmandu
+  date: Oct 22, 1994
+  short_description: An event for learning about the new SDLC for everyone who is studying at University of Limerick as an undergrad.
+  image:
