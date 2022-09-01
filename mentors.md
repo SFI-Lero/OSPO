@@ -52,7 +52,7 @@ ordernumber: 2
                   </a>
               {% endif %}
             </div>
-            <a class="btn btn-lero-outline" href="{{site.baseurl}}/mentors/{{people.firstname | downcase}}-{{people.lastname | downcase}}">View more</a>
+            <a class="btn btn-lero-outline" href="/OSPO{{people.url}}">View more</a>
             <!-- <a class="btn btn-lero-outline" href="{{site.baseurl}}/Member_Detail/">View more</a> -->
           </div>
         </div>
@@ -96,7 +96,7 @@ ordernumber: 2
                       </a>
                   {% endif %}
                 </div>
-                <a class="btn btn-lero-outline" href="{{site.baseurl}}/mentors/{{people.firstname | downcase}}-{{people.lastname | downcase}}/">View more</a>
+                <a class="btn btn-lero-outline" href="/OSPO{{people.url}}">View more</a>
               </div>
             </div>
           </div>
