@@ -59,26 +59,25 @@ ordernumber: 1
   </div>
   <div class="custom-container">
     <div class="row">
-      {% for events in sorted_events%}
+      {% for event in sorted_events%}
         <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
           <div class="card text-white card-has-bg click-col"
             style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
             <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street"alt="random">
             <div class="card-img-overlay d-flex flex-column">
               <div class="card-body">
-                <small class="card-meta mb-2">Thought Leadership</small>
-                <h4 class="card-title mt-0 "><a class="text-white" herf="#">Goverment Lorem Ipsum Sit Amet Consectetur
-                    dipisi?</a></h4>
-                <small class="text-underline"><i class="far fa-clock"></i> October 15, 2020</small>
+                <small class="card-meta mb-2">{{event.name}}</small>
+                <h4 class="card-title mt-0 "><a class="text-white" herf="{{site.baseurl}}">{{event.short_description}}</a></h4>
+                <small class="text-underline"><i class="far fa-clock"></i> {{event.date}}</small>
               </div>
-              <div class="card-footer">
+              <!-- <div class="card-footer">
                 <div class="media">
                   <div class="media-body">
                     <h6 class="my-0 text-white d-block">Organizer</h6>
                     <small>Organiz description</small>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
