@@ -7,28 +7,9 @@ Repository for the Lero OSPO website: [https://sfi-lero.github.io/OSPO/](https:/
 ## Website core configuration
 The website can be configured from the [`_config.yml` file](https://github.com/SFI-Lero/OSPO/blob/main/_config.yml). This is where the website contact email, twitter handle, description, title, etc. can be edited, as well as the default ruby gems etc. .
 
-## Adding people
-People are rendered here: https://sfi-lero.github.io/OSPO/People/. You can add yourself by adding YML content in this file (spaces and indenting matters!), you can leave out/delete what doesn't apply:
-https://github.com/SFI-Lero/OSPO/blob/main/_data/people.yml
+## Adding mentors
+Mentors are added inside the `_mentors` directory. 
 
-```yml
-- name: Dr Kevin M Moerman
-  role: Lecturer Biomedical Engineering
-  affiliation: National University Ireland Galway
-  img: kmm_profile_crop.jpg
-  url: https://kevinmoerman.org
-  github_username: Kevin-Mattheus-Moerman
-  twitter_username: KMMoerman
-  orcid_id: 0000-0003-3768-4269
-  impactstory_id: u/0000-0003-3768-4269
-  linkedin_username: kevin-moerman-98923831
-  email_address: kevin.moerman@nuigalway.ie
-  interests: Open Source Software, Open Hardware, Open Data, Biomechanics, Bioengineering
-  type: lead
-```
-
-The people descriptions point at a profile image in this folder:
-https://github.com/SFI-Lero/OSPO/tree/main/img/people
 
 ## Adding/editing pages
 Pages can be added by placing `.md` files in the root folder. The markdown content can be freely edited but must have the following type of YML content at the top:
