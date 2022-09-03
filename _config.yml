@@ -9,16 +9,16 @@ header-img: img/home-bg.jpg
 headercolor: "#000000"
 logo: img/logos/logo_banner.png
 
-# Footer Quick Links
-quick_links:
-  - name: Disclaimer
-    url: ""
-  - name: Privacy Statement
-    url: ""
-  - name: Contact Us
-    url: ""
-  - name: Careers
-    url: ""
+# # Footer Quick Links
+# quick_links:
+#   - name: Disclaimer
+#     url: ""
+#   - name: Privacy Statement
+#     url: ""
+#   - name: Contact Us
+#     url: ""
+#   - name: Careers
+#     url: ""
 
 # Tertiary Parameters
 github_username: SFI-Lero

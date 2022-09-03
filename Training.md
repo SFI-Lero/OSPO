@@ -26,8 +26,8 @@ ordernumber: 4
             <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street"alt="random">
             <div class="card-img-overlay d-flex flex-column">
               <div class="card-body">
-                <small class="card-meta mb-2">{{event.name}}</small>
-                <h4 class="card-title mt-0 "><a class="text-white" href="/OSPO/{{event.url}}">{{event.short_description}}</a></h4>
+                <h4 class="card-meta mb-2">{{event.name}}</h4>
+                <small class="card-title mt-0 "><a class="text-white" href="/OSPO/{{event.url}}">{{event.short_description}}</a></small>
                 <small class="text-underline"><i class="far fa-clock"></i> {{event.date}} </small>
               </div>
               <!-- <div class="card-footer">
