@@ -7,13 +7,13 @@ header-img: "img/home-bg.jpg"
 ordernumber: 2
 ---
 
-{% assign sorted_people = site.mentors | sort: "order" %}
+{% assign sorted_people = site.mentors | sort: "lastname" %}
 
 <section class="py-5">
   <div class="custom-container">
-    <h2 class="mb-3 text-center">Mentors</h2> 
+    <h2 class="mb-3 text-center">Director of Lero OSPO</h2> 
     <p class="text-justify">
-      A mentor is someone who teaches or gives help and advice to a less experienced and often younger person. In an organizational setting, a mentor influences the personal and professional growth of a mentee.
+      The Director is in charge of determining the mission & vision of Lero OSPO.
     </p>
   </div>
 </section>
@@ -60,6 +60,15 @@ ordernumber: 2
     {% endfor %}
   </div>
 </div>
+<section class="py-5">
+  <div class="custom-container">
+    <h2 class="mb-3 text-center">Mentors</h2> 
+    <p class="text-justify">
+      The designated mentors of Lero OSPO are experienced in Open Source or Open Science and form the steering committee od OSPO.
+      They are here to help all Lero members with their Open Science or Open Source activities.
+    </p>
+  </div>
+</section>
 <div class="container">
   <div class="row">
     {% for people in sorted_people %} 
