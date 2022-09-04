@@ -7,7 +7,7 @@ header-img:
 ordernumber: 4
 ---
 
-{% assign sorted_events = site.events | sort: "date" %}
+{% assign sorted_events = site.events | sort: "start_date" | reverse %}
 
 <section class="py-5">
   <div class="custom-container">
@@ -24,11 +24,17 @@ ordernumber: 4
           <div class="card text-white card-has-bg click-col"
             style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
             <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street"alt="random">
+            <a class="text-white" href="/OSPO/{{event.url}}">
             <div class="card-img-overlay d-flex flex-column">
               <div class="card-body">
                 <h4 class="card-meta mb-2">{{event.name}}</h4>
-                <small class="card-title mt-0 "><a class="text-white" href="/OSPO/{{event.url}}">{{event.short_description}}</a></small>
-                <small class="text-underline"><i class="far fa-clock"></i> {{event.date}} </small>
+                <small class="text-underline">
+                  <u>
+                    <i class="far fa-clock"></i> 
+                    {{event.start_date  | date: "%-d %B %Y" }} {% if event.end_date %} - {{event.end_date  | date: "%-d %B %Y" }} {% endif %}
+                  </u>
+                </small>
+                <small class="card-title mt-0 "><p>{{event.short_description}}</p></small>
               </div>
               <!-- <div class="card-footer">
                 <div class="media">
@@ -39,10 +45,12 @@ ordernumber: 4
                 </div>
               </div> -->
             </div>
+            </a>
           </div>
         </div>
       {% endfor %}
     </div>
+
   </div>
 
 </section>

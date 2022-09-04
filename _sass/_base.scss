@@ -107,10 +107,33 @@ transition: all 600ms ease-in-out;
     @media only screen and (max-width: 768px){
         &.hor{
             flex-direction: column;
+            width: 100%;
+            .member-info{
+                width: 100% !important;
+            }
+            .member-details{
+                p{
+                    margin: 0;
+                    margin-bottom: 16px;
+                    width: 100% !important;
+                    text-align: center;
+                }
+                .bottom{
+                    position: relative !important;
+                    width: 100% !important;
+                }
+            }
         }
     }
     &.hor{
         position: relative;
+        .member-details{
+            p{
+                -webkit-line-clamp: 6; /* number of lines to show */
+                line-clamp: 6; 
+                -webkit-box-orient: vertical;
+            }
+        }
         .member-info{
             width: 200px;
         }
@@ -122,6 +145,7 @@ transition: all 600ms ease-in-out;
     }
     &.ver{
         flex-direction: column;
+        width: 100%
     }
     .member-info{
         display: flex;
@@ -143,7 +167,15 @@ transition: all 600ms ease-in-out;
         }
     }
     .member-details{
-        text-align: center;
+        p{
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 4; /* number of lines to show */
+                    line-clamp: 4; 
+            -webkit-box-orient: vertical;
+                    }
+                    text-align: center;
     &.fw{
         p{
             width: 300px;
@@ -184,6 +216,7 @@ transition: all 600ms ease-in-out;
     background: transparent;
     cursor: pointer;
     text-decoration: none !important;
+    margin-bottom: 1rem;
 
     h4{
         margin-bottom: 0;
@@ -214,6 +247,15 @@ a.back{
     font-weight: 600;
     color:black;
 }
+
+a.back-v2{
+    line-height: 24px; 
+    cursor: pointer;
+    font-size: 32px;
+    font-weight: 600;
+    color:black;
+}
+
 .card{
     border: none;
     transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);

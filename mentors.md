@@ -12,7 +12,7 @@ ordernumber: 2
 <section class="py-5">
   <div class="custom-container">
     <h2 class="mb-3 text-center">Director of Lero OSPO</h2> 
-    <p class="text-justify">
+    <p class="text-justify text-center">
       The Director is in charge of determining the mission & vision of Lero OSPO.
     </p>
   </div>

@@ -5,12 +5,12 @@ layout: default
 
 <section>
   <div class="event-img" style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
-    <a class="back" href="events.html">
+    <a class="back" href="{{ site.baseurl}}/Training/">
       <i class="bi bi-arrow-left-short "></i>
     </a >
     <div class="titles">
-      <h2 class="text-white">{{page.date}}</h1>
-      <h3 class="text-white">{{page.name}}</h2>
+      <h2 class="text-white">{{page.name}}</h2>
+      <h3 class="text-white">{{page.start_date  | date: "%-d %B %Y"}} {% if page.end_date %} - {{page.end_date  | date: "%-d %B %Y" }} {% endif %}</h3>
     </div>
   </div>
 </section>
@@ -25,7 +25,14 @@ layout: default
       <tr>
         <td class="text-nowrap text-muted">Event details</td>
         <td>:</td>
-        <td>{{page.short_description}}</td>
+        <td>
+          <p>
+            {{page.short_description}}
+          </p>
+          <p>
+            {{page.detailed_description}}
+          </p>
+        </td>
       </tr>
       <tr>
         <td class="text-nowrap text-muted">Event venue</td>
@@ -35,41 +42,3 @@ layout: default
     </table>
   </div>
 </div>
-  <section class="py-5">
-    <div class="custom-container">
-      <h2 class="mb-3 text-center">Upcoming events</h2>
-      <p class="text-justify">
-        An event is something that happens, especially when it is unusual or important. You can use events to describe
-        all the things that are happening in a particular situation.
-      </p>
-    </div>
-    <div class="custom-container">
-      <div class="row">
-        {% for event in sorted_events%}
-        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
-          <div class="card text-white card-has-bg click-col"
-            style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
-            <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street"alt="random">
-            <div class="card-img-overlay d-flex flex-column">
-              <div class="card-body">
-                <h4 class="card-meta mb-2">{{event.name}}</h4>
-                <small class="card-title mt-0 "><a class="text-white" href="/OSPO{{event.url}}">{{event.short_description}}</a></small>
-                <small class="text-underline"><i class="far fa-clock"></i> {{event.date}}</small>
-              </div>
-              <!-- <div class="card-footer">
-                <div class="media">
-                  <div class="media-body">
-                    <h6 class="my-0 text-white d-block">Organizer</h6>
-                    <small>Organiz description</small>
-                  </div>
-                </div>
-              </div> -->
-            </div>
-          </div>
-        </div>
-      {% endfor %}
-
-      </div>
-    </div>
-
-  </section>
