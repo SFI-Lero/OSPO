@@ -9,8 +9,8 @@ layout: default
       <i class="bi bi-arrow-left-short "></i>
     </a >
     <div class="titles">
-      <h2 class="text-white">{{page.date}}</h1>
-      <h3 class="text-white">{{page.name}}</h2>
+      <h2 class="text-white">{{page.name}}</h2>
+      <h3 class="text-white">{{page.start_date  | date: "%-d %B %Y"}} {% if page.end_date %} - {{page.end_date  | date: "%-d %B %Y" }} {% endif %}</h3>
     </div>
   </div>
 </section>
@@ -25,7 +25,14 @@ layout: default
       <tr>
         <td class="text-nowrap text-muted">Event details</td>
         <td>:</td>
-        <td>{{page.short_description}}</td>
+        <td>
+          <p>
+            {{page.short_description}}
+          </p>
+          <p>
+            {{page.detailed_description}}
+          </p>
+        </td>
       </tr>
       <tr>
         <td class="text-nowrap text-muted">Event venue</td>
