@@ -48,8 +48,7 @@ ordernumber: 2
       it is also one of the main reasons why open source has thrived in recent years. Lero encourages its members to
       contribute back to the OSS community (see Lero Open Science Charter - link to be added), which not only builds
       goodwill with the Open Source community whose code might be the building block for one or more Lero projects, but
-      also can be beneficial in creating potential funding opportunities by showcasing Lero’s contributions (because
-      Open Science contributions are much more visible) to interested parties.
+      also can be beneficial in creating potential funding opportunities by showcasing Lero’s contributions to interested parties.
       </p>
     <p class="text-justify">Other than supporting Lero members’ interaction with the OSS community, the OSPO also advocates and promotes
       Lero’s Open Science policies and helps the Lero members with various activities & efforts related to Open Science.
@@ -79,6 +78,15 @@ ordernumber: 2
     <p class="text-justify">
       The Trinity College Dublin hosts their own OSPO:
       <a href="https://www.tcd.ie/innovation/OSPO/"  target="_blank">https://www.tcd.ie/innovation/OSPO/.</a>
+    </p>
+  </div>
+</section>
+<section class="py-3 mb-5">
+  <div class="custom-container">
+    <h3 class="mb-3">Open Science Charter</h3> 
+    <p class="text-justify">
+      Click
+      <a href="https://lero.ie/open-science/open-science-charter"  target="_blank">here</a> to read the charter
     </p>
   </div>
 </section>
