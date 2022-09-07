@@ -4,9 +4,9 @@ firstname: Mariana
 lastname: Clohessy
 role: ADMINISTRATOR
 affiliation: University of Limerick
-img: default.png
+img: Mariana.jpeg
 url: https://lero.ie/people/mariana-clohessy
-mentor_detail_img: default.png
+mentor_detail_img: Mariana.jpeg
 # github_username: Kevin-Mattheus-Moerman
 # twitter_username: KMMoerman
 # orcid_id: 0000-0003-3768-4269
