@@ -66,6 +66,16 @@ transition: all 600ms ease-in-out;
             color:#1DA1F2;
         }
     }
+    &.fb:hover{
+        i{
+            color:#3b5998;
+        }
+    }
+    &.em:hover{
+        i{
+            color:#b92d02;
+        }
+    }
 }
 .pp{
     width: 200px;
