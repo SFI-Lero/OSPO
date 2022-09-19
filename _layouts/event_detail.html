@@ -4,7 +4,7 @@ layout: default
 {%assign sorted_events = site.events | sort: "date" %}
 
 <section>
-  <div class="event-img" style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
+  <div class="event-img" style={% if page.default_image %} "background-image:url('/OSPO/img/events/{{page.default_image}}');" {% else %}  "background-image:url('/OSPO/img/events/{{page.image}}');" {% endif%}>
     <a class="back" href="{{ site.baseurl}}/Training/">
       <i class="bi bi-arrow-left-short "></i>
     </a >

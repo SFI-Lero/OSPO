@@ -22,9 +22,8 @@ ordernumber: 4
       {% for event in sorted_events%}
         <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
           <div class="card text-white card-has-bg click-col"
-            style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
-            <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street"alt="random">
-            <a class="text-white" href="/OSPO/{{event.url}}">
+            style={% if event.default_image %} "background-image:url('/OSPO/img/events/{{event.default_image}}');" {% else %}  "background-image:url('/OSPO/img/events/{{event.image}}');" {% endif%}>
+            <a class="text-white" href="/OSPO{{event.url}}">
             <div class="card-img-overlay d-flex flex-column">
               <div class="card-body">
                 <h4 class="card-meta mb-2">{{event.name}}</h4>
