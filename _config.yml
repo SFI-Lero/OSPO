@@ -10,19 +10,16 @@ headercolor: "#000000"
 logo: img/logos/logo_banner.png
 
 # # Footer Quick Links
-# quick_links:
-#   - name: Disclaimer
-#     url: ""
-#   - name: Privacy Statement
-#     url: ""
-#   - name: Contact Us
-#     url: ""
-#   - name: Careers
-#     url: ""
+quick_links:
+  - name: Open Science Charter
+    url: "https://lero.ie/open-science/open-science-charter"
+  - name: Contact Us
+    url: "https://sfi-lero.github.io/OSPO/Contact/"
 
 # Tertiary Parameters
 github_username: SFI-Lero
 twitter_username: LeroCentre
+linkedin_username: LeroCentre
 gmaps: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2419.246224136992!2d-8.574625884776621!3d52.673591332588416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b5e98212e5873%3A0xca7febf3aac3fc2d!2sUniversity%20of%20Limerick!5e0!3m2!1sen!2snp!4v1662615109226!5m2!1sen!2snp
 altmetric: true
 contactEmail: patrick.healy@ul.ie
