@@ -26,8 +26,13 @@ ordernumber: 99
         </h5>
         <div class="d-flex mt-2">
           <a href="#" class="ic-box fb"><i class="bi bi-facebook"></i></a> 
-          <a href="https://twitter.com/{{ site.twitter_username }}" class="ic-box tw"><i class="bi bi-twitter"></i></a>  
-          <a href="#" class="ic-box em"><i class="bi bi-envelope-fill"></i></a>          
+          <a href="https://twitter.com/{{ site.twitter_username }}" class="ic-box tw"><i class="bi bi-twitter"></i></a>
+          {% if site.linkedin_username %}
+            <a href="https://linkedin.com/company/{{ site.linkedin_username }}"  target="_blank" class="ic-box fb"> 
+              <i class="bi bi-linkedin"></i>
+            </a>
+          {% endif %}
+          <a href="#" class="ic-box em"><i class="bi bi-envelope-fill"></i></a>     
         </div>
       </div>
       <div class="col-sm-12 col-md-6">
