@@ -21,8 +21,11 @@ ordernumber: 4
     <div class="row">
       {% for event in sorted_events%}
         <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
-          <div class="card text-white card-has-bg click-col"
-            style={% if event.default_image %} "background-image:url('/OSPO/img/events/{{event.default_image}}');" {% else %}  "background-image:url('/OSPO/img/events/{{event.image}}');" {% endif%}>
+          {% if event.default_image %}
+            <div class="card text-white card-has-bg click-col" style="background-image:url('/OSPO/img/events/{{event.default_image}}');">
+          {% else %}
+            <div class="card text-white card-has-bg click-col" style="background-image:url('/OSPO/img/events/{{event.image}}');">
+          {% endif %}
             <a class="text-white" href="/OSPO{{event.url}}">
             <div class="card-img-overlay d-flex flex-column">
               <div class="card-body">
