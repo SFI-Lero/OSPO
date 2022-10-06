@@ -2,7 +2,7 @@
 layout: mentor_detail
 firstname: Mariana
 lastname: Clohessy
-role: ADMINISTRATOR
+role: PROJECTS OFFICER
 affiliation: University of Limerick
 img: Mariana.jpeg
 url: https://lero.ie/people/mariana-clohessy
