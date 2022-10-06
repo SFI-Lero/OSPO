@@ -29,7 +29,7 @@ ordernumber: 2
                     <img class="profile_img" alt="" src="{{ site.baseurl }}/img/people/{{ people.img }}">
                 </div>
               {% endif %}
-              <h6>{{ people.lastname }}, {{ people.firstname }}</h6>
+              <h6>{{ people.firstname }} {{ people.lastname }}</h6>
               <p>{{ people.role }}</p>
               <label class="text-secondary text-uppercase text-muted">{{ people.affiliation }}</label>
             </div>
