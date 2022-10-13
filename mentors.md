@@ -34,7 +34,6 @@ ordernumber: 2
               <label class="text-secondary text-uppercase text-muted">{{ people.affiliation }}</label>
             </div>
             <div class="member-details">
-              <p> {{ people.description }}</p>
               <div class="d-flex justify-content-between align-items-center">
               <div class="d-flex mt-2">
                   {% if people.email_address %}
