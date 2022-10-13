@@ -2,7 +2,7 @@
 layout: mentor_detail
 firstname: Lorraine
 lastname: Morgan
-role: Senior Lecturer, J.E. Cairnes School of Business and Economics
+role: Senior Lecturer
 affiliation: National University Ireland Galway
 img: morgan.png
 url: https://lero.ie/people/lorraine-morgan
