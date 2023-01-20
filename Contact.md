@@ -20,7 +20,7 @@ ordernumber: 99
         <div>Postcode : V94 NYD3</div> <br/>
         <div class="mt-1"><span class="fw-bolder">Tel:</span> +353 61 213028</div>
         <div><span class="fw-bolder">Fax:</span> +35361213036</div>
-        <div><span class="fw-bolder">Email:</span> info@lero.ie</div><br/>
+        <div><span class="fw-bolder">Email:</span> ospo@lero.ie</div><br/>
         <h5>
           Contact us through social media
         </h5>
