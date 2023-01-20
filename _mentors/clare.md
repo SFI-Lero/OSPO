@@ -4,7 +4,7 @@ firstname: Clare
 lastname: Dillon
 role: InnerSource Commons Foundation - Executive Director
 affiliation: InnerSource Commons, Trinity College Dublin
-img: brian.png
+img: clare.png
 url: https://www.linkedin.com/in/claredillon/
 mentor_detail_img: clare.png
 github_username: claredillon
