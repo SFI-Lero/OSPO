@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "About"
-description: About the LERO Open Source Program Office
+description: About the Lero Open Source and Open Science Programme Office
 ordernumber: 2
 ---
 
