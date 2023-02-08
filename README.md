@@ -1,4 +1,4 @@
-# The Lero Open Source Programme Office (OSPO)
+# The Lero Open Source and Open Science Programme Office (OSPO)
 Repository for the Lero OSPO website: [https://sfi-lero.github.io/OSPO/](https://sfi-lero.github.io/OSPO/)
 
 
