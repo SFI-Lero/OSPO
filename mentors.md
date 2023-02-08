@@ -13,7 +13,7 @@ ordernumber: 2
   <div class="custom-container">
     <h2 class="mb-3 text-center">Mentors</h2> 
     <p class="text-justify">
-      The designated mentors of Lero OSPO are experienced in Open Source or Open Science and form the steering committee od OSPO.
+      The designated mentors of Lero OSPO are experienced in Open Source or Open Science and form the steering committee of OSPO.
       They are here to help all Lero members with their Open Science or Open Source activities.
     </p>
   </div>
