@@ -39,7 +39,3 @@ ordernumber: 4
     </div>
   </div>
 </section>
-
-
-<!-- {% capture my_include %}{% include About.md %}{% endcapture %} --> 
-<!--  {{ my_include | markdownify }} --> 
